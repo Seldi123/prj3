@@ -103,10 +103,10 @@ public class Project3Frame extends javax.swing.JFrame {
         nr = Integer.parseInt(jTextField1.getText());
         
         if(jRadioButton1.isSelected()){
-            rezulatat = nr = hapi;
+            rezultat = nr + hapi;
         }
         if(jRadioButton2.isSelected()){
-            rezulatat = nr - hapi;
+            rezultat = nr - hapi;
         }
         jTextField1.setText(""+rezultat);
     }//GEN-LAST:event_jButton1ActionPerformed
